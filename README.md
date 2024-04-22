@@ -20,7 +20,7 @@ The approach consisted of three steps.
 3. Merge the two dataframes into one and perform clean up tasks. Once clean, export the merged dataframe to a csv file.
 
 # Summary of Findings:
-The NYT data produced 200 movie reviews based upon the filter criteria, which was set to 'love'. Once those review titles were passed to TMDB, 124 matching movies were returned. In general, drama and romance dominated the genres while English was the dominant spoken language. 
+The NYT data produced 200 movie reviews based upon the filter criteria, which was set to 'love'. Once those review titles were passed to TMDB, 124 matching movies were returned. In general, drama and romance dominated the genres while English was the dominant spoken language. Given the filter criteria and the prevelence of English in movie making, these genres and spoken language seem plausible.
 
 # Plagerism Statement:
 No specific code was copied but the sources below were referenced for examples and syntax. In addition, this challenge required collaboration with other students via Slack to understand how they were interpreting the module directions.
