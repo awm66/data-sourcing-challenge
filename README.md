@@ -4,7 +4,7 @@ Week 6 Challenge
 # Functionality:
 This application queries the New York Times API movie reviews based on filter criteria and returns 200 JSON results into a list. Those results are lightly transformed to isolate the title and extract keywords. Those results are then placed into a dataframe and the titles are used to feed a query into two The Movie Database APIs. The application first loops through the titles and requests the movie id. Once the id is determined, it further requests details via a second API endpoint to obtain various information such as genres, spoken languages, and production countries for each title. These JSON results are then converted to a dataframe. The applications then merges the two dataframes into one dataframe and performs data clean up. Once complete, the application produces the final output, which is a csv file. 
 
-![Screenshot](nyt_title_list.png)
+![Screenshot](nyt_title_list.png) 
 
 ![Screenshot](tmdb_title_match.png)
 
