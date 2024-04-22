@@ -4,7 +4,11 @@ Week 6 Challenge
 # Functionality:
 This application queries the New York Times API movie reviews based on filter criteria and returns 200 JSON results into a list. Those results are lightly transformed to isolate the title and extract keywords. Those results are then placed into a dataframe and the titles are used to feed a query into two The Movie Database APIs. The application first loops through the titles and requests the movie id. Once the id is determined, it further requests details via a second API endpoint to obtain various information such as genres, spoken languages, and production countries for each title. These JSON results are then converted to a dataframe. The applications then merges the two dataframes into one dataframe and performs data clean up. Once complete, the application produces the final output, which is a csv file. 
 
-![Screenshot](top_5_client_summary.png)
+![Screenshot](nyt_title_list.png)
+
+![Screenshot](tmdb_title_match.png)
+
+![Screenshot](merged_df.png)
 
 # Approach:
 The approach consisted of three steps.
@@ -13,10 +17,10 @@ The approach consisted of three steps.
 3. Merge the two dataframes into one and perform clean up tasks. Once clean, export the merged dataframe to a csv file.
 
 # Summary of Findings:
-The data showed that the top five most active clients purchased 496,628 items, generated $123,556,060 in revenue, and contributed $48,045,451 to profit. A single client generated 48.3%, 66.6%, and 76.1% of those amounts respectively. There is significant concentration risk in the one single client. It is recommended to reduce the concentration risk of this single client.
+The NYT data produced 200 movie reviews based upon the filter criteria, which was set to 'love'. Once those review titles were passed to TMDB, 124 matching movies were returned. In general, drama and romance dominated the genres while English was the dominant spoken language. 
 
 # Plagerism Statement:
-No specific code was copied but the sources below were referenced for examples and syntax. 
+No specific code was copied but the sources below were referenced for examples and syntax. In addition, this challenge required collaboration with other students via Slack to understand how they were interpreting the module directions.
 
 # Sources:
 
