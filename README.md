@@ -33,4 +33,10 @@ Harrison, M. (2021). Effective Pandas: Patterns for Data Manipulation. Matt Harr
 
 Lutz, M. (2013). Learning python: Powerful object-oriented programming. " O'Reilly Media, Inc.".
 
+move column in pandas dataframe. (n.d.). Stack Overflow. Retrieved April 24, 2024, from https://stackoverflow.com/questions/35321812/move-column-in-pandas-dataframe
+
+TypeError: unhashable type: “list” while self joining a dataframe? (n.d.). Stack Overflow. Retrieved April 24, 2024, from https://stackoverflow.com/questions/70741283/typeerror-unhashable-type-list-while-self-joining-a-dataframe
+
+
+
 
